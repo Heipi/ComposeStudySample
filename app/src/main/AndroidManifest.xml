@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Compose">
         <activity
+            android:name=".ButtonScreen"
+            android:exported="true" />
+        <activity
             android:name=".ScaffoldScreen"
             android:exported="true" />
         <activity
