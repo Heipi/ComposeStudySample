@@ -18,7 +18,8 @@ class ButtonScreen : AppCompatActivity() {
                 Text(text = "Page title", maxLines = 2)
             }, navigationIcon = {
                 Icon(painter = painterResource(id = R.drawable.icon_shua),
-                contentDescription = "icon")}
+                contentDescription = "icon")
+            }
             )
 //            Button(onClick = { /*TODO*/ }) {
 //
